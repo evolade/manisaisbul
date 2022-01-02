@@ -1,1 +1,1 @@
-<h1>hakkımızda ...</h1>
+<h1>hakkımızda...</h1>
