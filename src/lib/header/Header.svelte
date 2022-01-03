@@ -1,35 +1,59 @@
 <header>
-	<div class="row">
-		<div class="column">
+
+			<div class="floated">
+				<div class="colored">
+					<div class="lefted">
+						<a href="facebook.com">
+							<img src="/logolar/fb.jpg" alt="" class="leftedd">
+
+						</a>
+	
+					</div>
+					<div class="lefted">
+						<img src="/logolar/fb.jpg" alt="" class="leftedd">
+	
+					</div>
+					<div class="lefted">
+						<img src="/logolar/fb.jpg" alt="" class="leftedd">
+	
+					</div>
+					
+				</div>
+
+			</div>
 			<a href="/">
-				<img src="/logo.jpeg" alt="" class="logo">
+				<img src="/logo2.jpg" alt="" class="logo">
 			
 			</a>
 
-		</div>
 		
-	</div>
-	<div class="center">
 		
-
-		<a href="/"><button class="hbutton">Ana sayfa</button></a>
-		<a href="/hakkimizda" class="dropdown">
-			<button class="hbutton">Hakkımızda</button>
-			<div class="dropdown-content">
-				<a href="/hakkimizda"><p>Hakkımızda</p></a>
-				<a href="/referanslarimiz"><p>Neden biz?</p></a>
-				<a href="/referanslarimiz"><p>Vizyonumuz</p></a>
-				<a href="/referanslarimiz"><p>Değerlerimiz</p></a>
-				<a href="/referanslarimiz"><p>Uzmanlık alanlarımız</p></a>
+			<div class="center">
 			
+	
+				<a href="/"><button class="hbutton">Ana sayfa</button></a>
+				<a href="/hakkimizda" class="dropdown">
+					<button class="hbutton">Hakkımızda</button>
+					<div class="dropdown-content">
+						<a href="/hakkimizda"><p>Hakkımızda</p></a>
+						<a href="/referanslarimiz"><p>Neden biz?</p></a>
+						<a href="/referanslarimiz"><p>Vizyonumuz</p></a>
+						<a href="/referanslarimiz"><p>Değerlerimiz</p></a>
+						<a href="/referanslarimiz"><p>Uzmanlık alanlarımız</p></a>
+					
+					</div>
+				</a>
+				<a href="/referanslarimiz"><button class="hbutton">Referanslarımız</button></a>
+				
+				<a href="/cvdoldur"><button class="hbutton">Başvuru yap</button></a>
+				<a href="/iletisim"><button class="hbutton">İletişim</button></a>
+	
 			</div>
-		</a>
-		<a href="/referanslarimiz"><button class="hbutton">Referanslarımız</button></a>
-		
-		<a href="/cvdoldur"><button class="hbutton">Başvuru yap</button></a>
-		<a href="/iletisim"><button class="hbutton">İletişim</button></a>
 
-	</div>
+	
+		
+	
+	
 
 		
 
@@ -37,6 +61,20 @@
 
 
 <style>
+	.lefted {
+		padding-top: 7px;
+		padding-right: 15px;
+		text-align: end;
+		float:right;
+		
+		
+	}
+	.leftedd {
+		width: 25px;
+		
+
+		
+	}
 	.center {
 		text-align: center;
 		
@@ -58,32 +96,13 @@
 	
 	.logo {
 		height: 130px;
-		margin: 30px;
+		margin: 0px;
+		margin-left: 10px;
 	}
-	.column {
-  float: left;
-  
-  padding: 5px;
-}
-	.columnu {
-  float: left;
-  
-  padding: 5px;
-  text-align: center;
-  
-  margin-top: 50px;
-  margin-left: 20px;
-}
 
-/* Clear floats after image containers */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-	h1 {
-		text-align: center;
-	}
+
+
+
 
 	.dropdown {
   position: relative;
@@ -103,4 +122,8 @@
 .dropdown:hover .dropdown-content {
   display: block;
 }
+.colored {
+		background-color: rgb(244, 244, 244);
+		height: 40px;
+	}
 </style>
