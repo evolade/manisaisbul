@@ -26,8 +26,6 @@
 			
 			</a>
 
-		
-		
 			<div class="center">
 			
 	
@@ -45,17 +43,10 @@
 				</a>
 				<a href="/referanslarimiz"><button class="hbutton">Referanslarımız</button></a>
 				
-				<a href="/cvdoldur"><button class="hbutton">Başvuru yap</button></a>
+				<a href="/basvuru"><button class="hbutton">Başvuru yap</button></a>
 				<a href="/iletisim"><button class="hbutton">İletişim</button></a>
 	
 			</div>
-
-	
-		
-	
-	
-
-		
 
 </header>
 
@@ -99,10 +90,6 @@
 		margin: 0px;
 		margin-left: 10px;
 	}
-
-
-
-
 
 	.dropdown {
   position: relative;
