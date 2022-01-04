@@ -60,8 +60,12 @@ Sonuç ve çözüm odaklı yaklaşımımız, iyi iletişim ve ilişkilerimiz ile
 
 
 <style>
+	h2 {
+		font-size: 100%;
+	}
 	.parg {
-		margin:20px;
+		margin:17px;
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
 	}
 	
 
@@ -152,23 +156,23 @@ Sonuç ve çözüm odaklı yaklaşımımız, iyi iletişim ve ilişkilerimiz ile
   padding: 10px;
 }
 
-.one {
+			.one {
                 float:left; 
-               
+				background-color: red;
                 width:33%;
-                height:280px;
+                
             }
             .two{
                 float:left; 
-                
+                background-color: red;
                 width:33%;
-                height:280px;
+                
             }
             .three{
                 float:right;
-                
+                background-color: red;
                 width:34%;
-                height:280px;
+                
             }
 
 </style>
