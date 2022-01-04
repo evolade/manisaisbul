@@ -3,7 +3,7 @@
 			<div class="floated">
 				<div class="colored">
 					<div class="lefted">
-						<a href="facebook.com">
+						<a href="https://www.facebook.com/groups/1623869321162341">
 							<img src="/logolar/fb.jpg" alt="" class="leftedd">
 
 						</a>
